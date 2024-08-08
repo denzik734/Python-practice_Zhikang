@@ -87,7 +87,7 @@ mdl.add_part(prt)
 fixed_nodes1 = fixed_nodes = [prt.find_node_by_coordinates(0, 0, 0)]
 mdl.add_fix_bc(nodes=fixed_nodes)
 # fix the right bottom node
-fixed_nodes2 = fixed_nodes = [prt.find_node_by_coordinates(, 0, 0)]
+fixed_nodes2 = fixed_nodes = [prt.find_node_by_coordinates(0, 0, 0)]
 mdl.add_fix_bc(nodes=fixed_nodes)
 mdl.summary() # Summarizes the model setup.
 
