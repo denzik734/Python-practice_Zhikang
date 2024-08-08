@@ -1,1 +1,1 @@
-# Python-practice_Zhikang
+# Simple frame
